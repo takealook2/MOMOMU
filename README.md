@@ -1,7 +1,7 @@
 # MOMOMU
 
 
-🚀https://momomu.herokuapp.com/🚀
+🚀 https://momomu.herokuapp.com/ 🚀
 
 
 	📚이 서비스를 기획하게 된 배경

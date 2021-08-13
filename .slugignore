@@ -1,0 +1,10 @@
+# Heres a comment
+*.psd
+*.pdf
+/test
+/spec
+/flask
+/ubuntu
+/Werkzeug
+/click
+/Jinja2

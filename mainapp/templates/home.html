@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+<link rel="stylesheet" href="{% static 'first1.css' %}">
+
+</head>
+<body>
+
+<div id="_">
+	<img id="_15" src="/static/image/_15.png" srcset="/static/image/_15.png 1x">
+		
+	<div id="__">
+		<span>모 모 뮤</span>
+	</div> 
+	<svg class="_12" viewBox="0 0 96.781 1">
+		<path id="_12" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<svg class="_14" viewBox="0 0 96.781 1">
+		<path id="_14" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<svg class="_16" viewBox="0 0 96.781 1">
+		<path id="_16" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<img id="_14_" src="/static/image/_14_.png" srcset="/static/image/_14_.png 1x">
+		
+	<svg class="_1" viewBox="0 0 285 285">
+		<path id="_1" d="M 285 0 L 0 285">
+		</path>
+	</svg>
+	<svg class="_5" viewBox="0 0 285 285">
+		<path id="_5" d="M 285 0 L 0 285">
+		</path>
+	</svg>
+	<svg class="_3" viewBox="0 0 285 285">
+		<path id="_3" d="M 285 0 L 0 285">
+		</path>
+	</svg>
+	<svg class="_7" viewBox="0 0 285 285">
+		<path id="_7" d="M 285 0 L 0 285">
+		</path>
+	</svg>
+	<svg class="_2" viewBox="0 0 72 72">
+		<path id="_2" d="M 72 0 L 0 72">
+		</path>
+	</svg>
+	<svg class="_4" viewBox="0 0 72 72">
+		<path id="_4" d="M 72 0 L 0 72">
+		</path>
+	</svg>
+	<svg class="_6" viewBox="0 0 106.5 106.25">
+		<path id="_6" d="M 106.5 0 L 0 106.25">
+		</path>
+	</svg>
+	<svg class="_9" viewBox="0 0 52 52">
+		<path id="_9" d="M 52 0 L 0 52">
+		</path>
+	</svg>
+	<svg class="_8" viewBox="0 0 72 72">
+		<path id="_8" d="M 72 0 L 0 72">
+		</path>
+	</svg>
+	<svg class="_10" viewBox="0 0 286 1">
+		<path id="_10" d="M 0 0 L 286 0">
+		</path>
+	</svg>
+	<svg class="_11" viewBox="0 0 286 1">
+		<path id="_11" d="M 0 0 L 286 0">
+		</path>
+	</svg>
+	<svg class="_13" viewBox="0 0 96.781 1">
+		<path id="_13" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<svg class="_15_bf" viewBox="0 0 96.781 1">
+		<path id="_15_bf" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<svg class="_17" viewBox="0 0 96.781 1">
+		<path id="_17" d="M 0 0 L 96.78070068359375 0">
+		</path>
+	</svg>
+	<div id="_97">
+		<svg class="_157">
+			<img id="_157" class="_157" src="/static/image/m1.jpg" srcset="/static/image/m1.jpg 1x" rx="0" ry="0" x="0" y="0" width="227" height="295">
+		</svg>
+		<svg class="_158">
+			<img id="_158" class="_158" src="/static/image/m2.jpg" srcset="/static/image/m2.jpg 1x" rx="0" ry="0" x="0" y="0" width="227" height="295">
+		</svg>
+		<svg class="_159">
+			<img id="_159" class="_159" src="/static/image/m3.jpg" srcset="/static/image/m3.jpg 1x" rx="0" ry="0" x="0" y="0" width="227" height="295">
+		</svg>
+		<svg class="_160">
+			<img id="_160" class="_160"  src="/static/image/m4.jpg" srcset="/static/image/m4.jpg 1x" rx="0" ry="0" x="0" y="0" width="227" height="295">
+		</svg>
+		<svg class="_161">
+			<img id="_161" class="_161" src="/static/image/m5.jpg" srcset="/static/image/m5.jpg 1x" rx="0" ry="0" x="0" y="0" width="227" height="295">
+		</svg>
+	</div>
+	<div id="___bn">
+		<span>모두 모여 뮤지컬</span>
+	</div>
+	<img id="_1_br" src="/static/image/_1_br.png" srcset="/static/image/_1_br.png">
+		
+	<svg class="_164">
+		<rect id="_164" rx="20.5" ry="20.5" x="0" y="0" width="394" height="41">
+		</rect>
+	</svg>
+	<svg class="_165">
+		<rect id="_165" rx="20.5" ry="20.5" x="0" y="0" width="394" height="41">
+		</rect>
+	</svg>
+
+	<div class="mb-1 mx-auto text-center">
+          <p>
+            {{ error }}
+          </p>
+        </div>
+  
+                 
+        <form class="validation-form" novalidate method="POST" action=".">
+          {% csrf_token %}   
+          <div class="email">
+            
+            <input type="email" class="form-control" id="email" name="email" placeholder="이메일을 입력해 주세요." required>
+            <div class="invalid-feedback">
+             
+            </div>
+          </div>
+
+          <div class="mb-3">
+            
+            <input type="password" class="form-control" id="password" name="password" placeholder="비밀번호를 입력해 주세요." required>
+            <div class="invalid-feedback">
+              
+            </div>
+          </div>
+          <p>
+		  
+          <button class="btn2" type="submit" >로그인</button>
+		  
+		  
+          <button class="btn1" type="button" onclick="location.href='{%url 'img'%}'" role="button">비회원입장</button>
+		  
+		  
+          <button class="btn3" type="button" onclick="location.href='{%url 'register'%}'" role="button">회원가입</button>
+		 
+          </p>
+        </form>
+      </div>
+      
+    </div>
+
+</div>
+ <script>
+    window.addEventListener('load', () => {
+      const forms = document.getElementsByClassName('validation-form');
+
+      Array.prototype.filter.call(forms, (form) => {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  </script>
+
+</body>
+
+
+</html>
